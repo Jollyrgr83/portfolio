@@ -41,6 +41,10 @@
     width: 300px;
 }
 
+.bio {
+    font-size: 18px;
+}
+
 .portfolio-img {
     max-width: 100%;
     width: 300px;
