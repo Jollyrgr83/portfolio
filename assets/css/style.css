@@ -87,10 +87,16 @@
     box-shadow: 5px 5px 5px lightgray;
 }
 
-.card-box-link, .card-box-link:hover {
+.card-box-link {
     color: rgb(40, 98, 142);
     text-decoration: none;
     font-size: 24px;
+    font-family: 'Assistant', sans-serif
+}
+
+.card-box-link:hover {
+    text-decoration: none;
+    font-size: 26px;
     font-family: 'Assistant', sans-serif
 }
 
