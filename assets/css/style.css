@@ -41,14 +41,19 @@
     width: 300px;
 }
 
+.ed-image {
+    max-width: 75%;
+    width: 100px;
+}
 .bio {
-    font-size: 18px;
+    font-size: 24px;
+    font-family: 'Assistant', sans-serif;
 }
 
 .portfolio-img {
     max-width: 100%;
     width: 300px;
-    /* box-shadow: 5px 5px 5px lightgray; */
+    box-shadow: 5px 5px 5px lightgray;
 }
 
 .portfolio-link {
@@ -58,7 +63,7 @@
     color: rgb(40, 98, 142);
     text-align: center;
     width: 300px;
-    padding: 5px;
+    padding: 5px;;
     /* box-shadow: 5px 5px 5px lightgray; */
 }
 
@@ -73,18 +78,20 @@
     width: 300px;
     background-color: rgb(40, 98, 142);
     color: whitesmoke;
-    box-shadow: 5px 5px 5px lightgray;
+    /* box-shadow: 5px 5px 5px lightgray; */
 }
 
 .card-box-text {
-    font-size: 14px;
+    font-size: 16px;
     padding: 15px;
+    box-shadow: 5px 5px 5px lightgray;
 }
 
 .card-box-link, .card-box-link:hover {
     color: rgb(40, 98, 142);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 24px;
+    font-family: 'Assistant', sans-serif
 }
 
 a {
