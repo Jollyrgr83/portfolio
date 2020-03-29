@@ -8,9 +8,9 @@
 
 
 .background-img {
-    /* background-image: url("./assets/images/background.jpg");
-    background-size: cover; */
-    background-color: rgba(40, 98, 142, 50%);
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    /* background-color: rgba(40, 98, 142, 50%); */
 }
 
 .header-bar {
