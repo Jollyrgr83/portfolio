@@ -1,46 +1,30 @@
-.show {
-    display: block;
-}
-
-.hide {
-    display: none;
-}
-
-
-.background-img {
-    background-image: url("../images/background.jpg");
-    background-size: cover;
-    /* background-color: rgba(40, 98, 142, 50%); */
-}
-
+/* header elements including navbar */
 .header-bar {
     background-color: rgb(40, 98, 142);
 }
-
 #name-link {
     color: whitesmoke;
 }
-
 .header-button {
     color: whitesmoke;
 }
-
+/* about me section elements */
 .main-container {
     background-color: whitesmoke;
 }
-
 .bio-card-header {
     background-color: whitesmoke;
     color: rgb(40, 98, 142);
     font-size: 32px;
     font-weight: normal;
 }
-
 .bio-image {
     max-width: 95%;
     width: 300px;
 }
-
+.about-me-button {
+    width: 100%;
+}
 .ed-image {
     max-width: 75%;
     width: 100px;
@@ -49,13 +33,12 @@
     font-size: 24px;
     font-family: 'Assistant', sans-serif;
 }
-
+/* portfolio section elements */
 .portfolio-img {
     max-width: 100%;
     width: 300px;
     box-shadow: 5px 5px 5px lightgray;
 }
-
 .portfolio-link {
     max-width: 100%;
     font-size: 16px;
@@ -63,67 +46,55 @@
     color: rgb(40, 98, 142);
     text-align: center;
     width: 300px;
-    padding: 5px;;
-    /* box-shadow: 5px 5px 5px lightgray; */
+    padding: 5px;
 }
-
 .portfolio-btn {
     width: 300px;
     max-width: 100%;
     background-color: rgb(40, 98, 142);
 }
-
 .card-box {
     max-width: 100%;
     width: 300px;
     background-color: rgb(40, 98, 142);
     color: whitesmoke;
-    /* box-shadow: 5px 5px 5px lightgray; */
 }
-
 .card-box-text {
     font-size: 16px;
     padding: 15px;
     box-shadow: 5px 5px 5px lightgray;
 }
-
 .card-box-link {
     color: rgb(40, 98, 142);
     text-decoration: none;
     font-size: 24px;
     font-family: 'Assistant', sans-serif
 }
-
 .card-box-link:hover {
     text-decoration: none;
     font-size: 26px;
     font-family: 'Assistant', sans-serif
 }
-
 a {
     color: whitesmoke;
     text-decoration: none;
+}   
+/* main page elements */
+.background-img {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
 }
-
-.footer-bar {
-    background-color: rgb(40, 98, 142);
-    color: whitesmoke;
-    font-size: 12px;
-    text-align: center;
-    height: 4%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 5px;
-}
-    
 body {
     box-sizing: border-box;
-    padding-bottom: 4%;
-    
+    padding-bottom: 4%;    
 }
-
 html {
     min-height: 100vh;
+}
+/* used to show and hide sections */
+.show {
+    display: block;
+}
+.hide {
+    display: none;
 }

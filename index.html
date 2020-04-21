@@ -41,15 +41,18 @@
             <div class="container main-container p-3 m-3 mx-auto">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h1 class="bio-card-header">about me</h1>
+                        <button class="bio-card-header about-me-button btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseAboutMe" aria-expanded="false" aria-controls="collapseAboutMe">about me</button>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <img class="bio-image" src="./assets/images/bio2.jpg" alt="image of jason mangin"/>
-                    </div>
-                    <div class="col-sm-8">
-                        <p class="card-text bio">I am an aspiring full stack engineer with a lifelong passion for programming and problem-solving. Originally born and raised in Iowa, I am a fifteen year Navy veteran who has spent a large portion of my life on nuclear submarines. I have extensive experience in leadership, consulting, process improvement, and learning. Name it and there is a good chance that I have done it! Outside of work and projects, I spend most of my time baking (bread mostly) or outside hiking and biking. I am a huge fan of cinema and television as well.</p>
+                <div class="collapse" id="collapseAboutMe">
+                    <div class="row">
+
+                        <div class="col-sm-3 my-3">
+                            <img class="bio-image" src="./assets/images/bio2.jpg" alt="image of jason mangin"/>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="card-text bio">I am an aspiring full stack engineer with a lifelong passion for programming and problem-solving. Originally born and raised in Iowa, I am a fifteen year Navy veteran who has spent a large portion of my life on nuclear submarines. I have extensive experience in leadership, consulting, process improvement, and learning. Name it and there is a good chance that I have done it! Outside of work and projects, I spend most of my time baking (bread mostly) or outside hiking and biking. I am a huge fan of cinema and television as well.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -57,37 +60,67 @@
             <div class="container main-container p-3 m-3 mx-auto">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h1 class="bio-card-header">education</h1>
+                        <button class="bio-card-header about-me-button btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEducation" aria-expanded="false" aria-controls="collapseEducation">education</button>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-3 text-center my-3">
-                        <img class="ed-image" src="./assets/images/auburn.png" alt="auburn university logo"/>
+                <div class="collapse" id="collapseEducation">
+                    <div class="row">
+                        <div class="col-sm-3 text-center my-3">
+                            <img class="ed-image" src="./assets/images/auburn.png" alt="auburn university logo"/>
+                        </div>
+                        <div class="col-sm-9 my-3">
+                            <h3>Auburn University</h3>
+                            <h4>B.S. Applied Mathematics</h4>
+                            <p class="card-text bio">mathematical modeling, system optimization, cryptography, algorithms</p>
+                        </div>
                     </div>
-                    <div class="col-sm-9 my-3">
-                        <h3>Auburn University</h3>
-                        <h4>B.S. Applied Mathematics</h4>
-                        <p class="card-text bio">mathematical modeling, system optimization, cryptography, algorithms</p>
+                    <div class="row">
+                        <div class="col-sm-3 text-center my-3">
+                            <img class="ed-image" src="./assets/images/u-of-u.png" alt="university of utah logo"/>
+                        </div>
+                        <div class="col-sm-9 my-3">
+                            <h3>University of Utah</h3>
+                            <h4>Full Stack Flex Certificate</h4>
+                            <p class="card-text bio">html, css, javascript, bootstrap, jQuery, node.js, mongoDB, excite, react</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 text-center my-3">
+                            <img class="ed-image" src="./assets/images/navy.png" alt="united states navy logo"/>
+                        </div>
+                        <div class="col-sm-9 my-3">
+                            <h3>United States Navy</h3>
+                            <h4>Naval Nuclear Power School</h4>
+                            <p class="card-text bio">Nuclear, Mechanical, Electrical, and Chemical theory, design, troubleshooting, operation, and leadership</p>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <!-- professional information section -->
+            <div class="container main-container p-3 m-3 mx-auto">
                 <div class="row">
-                    <div class="col-sm-3 text-center my-3">
-                        <img class="ed-image" src="./assets/images/u-of-u.png" alt="university of utah logo"/>
-                    </div>
-                    <div class="col-sm-9 my-3">
-                        <h3>University of Utah</h3>
-                        <h4>Full Stack Flex Certificate</h4>
-                        <p class="card-text bio">html, css, javascript, bootstrap, jQuery, node.js, mongoDB, excite, react</p>
+                    <div class="col-sm-12">
+                        <button class="bio-card-header about-me-button btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseProfessional" aria-expanded="false" aria-controls="collapseProfessional">professional information</button>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-3 text-center my-3">
-                        <img class="ed-image" src="./assets/images/navy.png" alt="united states navy logo"/>
+                <div class="collapse" id="collapseProfessional">
+                    <div class="row">
+                        <div class="col-sm-3 my-3">
+                            <h3>LinkedIn</h3>
+                        </div>
+                        <div class="col-sm-9 my-3">
+                            <a href="#" target="_blank">LinkedIn</a>
+                        </div>
                     </div>
-                    <div class="col-sm-9 my-3">
-                        <h3>United States Navy</h3>
-                        <h4>Naval Nuclear Power School</h4>
-                        <p class="card-text bio">Nuclear, Mechanical, Electrical, and Chemical theory, design, troubleshooting, operation, and leadership</p>
+                    <div class="row">
+                        <h3 class="col-sm-3 my-3">GitHub</h3>
+                        <a class="col-sm-9-my-3" href="#" target="_blank">GitHub</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9 my-3">
+                            <h3>Resume</h3>
+                            <a href="#" target="_blank">Resume</a>
+                        </div>
                     </div>
                 </div>
             </div>
