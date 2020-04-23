@@ -11,6 +11,8 @@
 /* about me section elements */
 .main-container {
     background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
 }
 .bio-card-header {
     background-color: whitesmoke;

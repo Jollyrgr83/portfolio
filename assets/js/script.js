@@ -99,6 +99,7 @@ function display(page) {
 }
 // renders the portfolio links and associated elements
 function renderPortfolio() {
+    $("#portfolioArea").empty();
     var portfolioArray = Object.keys(portfolio.projects);
     var numRows = Math.floor(portfolioArray.length / 3) + 1;
     var numPlaceholders = (numRows * 3) - portfolioArray.length;
