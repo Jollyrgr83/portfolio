@@ -1,178 +1,241 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8"/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <title>Portfolio | Jason Mangin</title>
+
     <!-- favicon -->
     <link rel="icon" type="image/png" href="./assets/images/favicon.png"/>
+
     <!-- bootstrap style sheet -->
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+
+    <!-- Google fonts (indie flower and open sans) -->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@300&display=swap" rel="stylesheet"/>
+
+    <!-- fontawesome style sheet -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" type="text/css"/>
+
+    <!-- jQuery script for fontawesome to work with jQuery -->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+
     <!-- local style sheet -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">
-</head>
-<body class="background-img">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark header-bar">
-            <a class="navbar-brand" id="name-link" href="#">Jason Mangin</a>
-            <button class="navbar-toggler header-button" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" id="about-me-link" href="#">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="portfolio-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="contact-link" href="#">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main class="mx-auto m-3"> 
-        <!-- about me page container -->
-        <div id="aboutMeContainer">    
-            <div class="container p-3 m-3 mx-auto">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <button class="bio-card-header about-me-button btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseAboutMe" aria-expanded="false" aria-controls="collapseAboutMe">about me</button>
-                    </div>
-                </div>
-                <div class="collapse" id="collapseAboutMe">
-                    <div class="row">
 
-                        <div class="col-sm-3 my-3">
-                            <img class="bio-image" src="./assets/images/bio2.jpg" alt="image of jason mangin"/>
-                        </div>
-                        <div class="col-sm-9">
-                            <p class="card-text bio">I am an aspiring full stack engineer with a lifelong passion for programming and problem-solving. Originally born and raised in Iowa, I am a fifteen year Navy veteran who has spent a large portion of my life on nuclear submarines. I have extensive experience in leadership, consulting, process improvement, and learning. Name it and there is a good chance that I have done it! Outside of work and projects, I spend most of my time baking (bread mostly) or outside hiking and biking. I am a huge fan of cinema and television as well.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- education section -->
-            <div class="container p-3 m-3 mx-auto">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <button class="bio-card-header about-me-button btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEducation" aria-expanded="false" aria-controls="collapseEducation">education</button>
-                    </div>
-                </div>
-                <div class="collapse" id="collapseEducation">
-                    <div class="row">
-                        <div class="col-sm-3 text-center my-3">
-                            <img class="ed-image" src="./assets/images/auburn.png" alt="auburn university logo"/>
-                        </div>
-                        <div class="col-sm-9 my-3">
-                            <h3>Auburn University</h3>
-                            <h4>B.S. Applied Mathematics</h4>
-                            <p class="card-text bio">mathematical modeling, system optimization, cryptography, algorithms</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-3 text-center my-3">
-                            <img class="ed-image" src="./assets/images/u-of-u.png" alt="university of utah logo"/>
-                        </div>
-                        <div class="col-sm-9 my-3">
-                            <h3>University of Utah</h3>
-                            <h4>Full Stack Flex Certificate</h4>
-                            <p class="card-text bio">html, css, javascript, bootstrap, jQuery, node.js, mongoDB, excite, react</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-3 text-center my-3">
-                            <img class="ed-image" src="./assets/images/navy.png" alt="united states navy logo"/>
-                        </div>
-                        <div class="col-sm-9 my-3">
-                            <h3>United States Navy</h3>
-                            <h4>Naval Nuclear Power School</h4>
-                            <p class="card-text bio">Nuclear, Mechanical, Electrical, and Chemical theory, design, troubleshooting, operation, and leadership</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- professional information section -->
-            <div class="container p-3 m-3 mx-auto">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <button class="bio-card-header about-me-button btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseProfessional" aria-expanded="false" aria-controls="collapseProfessional">professional information</button>
-                    </div>
-                </div>
-                <div class="collapse" id="collapseProfessional">
-                    <div class="row">
-                        <h3 class="col-sm-3 my-3"><a class="professional-links" href="https://www.linkedin.com/in/jason-mangin-21032065" target="_blank">LinkedIn</a></h3>
-                    </div>
-                    <div class="row">
-                        <h3 class="col-sm-3 my-3"><a class="col-sm-9-my-3 professional-links" href="https://github.com/Jollyrgr83" target="_blank">GitHub</a></h3>
-                    </div>
-                    <div class="row">
-                        <h3 class="col-sm-3 my-3"><a class="professional-links" href="./assets/images/jason-mangin-resume.pdf" target="_blank">Resume</a></h3>
-                    </div>
-                </div>
-            </div>
+</head>
+
+<body class="background-img">
+
+    <div class="container">
+
+        <div class="row">
+
+            <img src="assets/images/bio2.jpg" class="circle-img mx-auto"/>
+
         </div>
 
-        <!-- portfolio page container -->
-        <div id="portfolioContainer">
-            <div class="container p-3 m-3 mx-auto">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h1 class="bio-card-header">portfolio</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p class="bio">Here is a quick snapshot of my favorite projects. Click the button for a link and a quick description.</p>
-                    </div>
-                </div>
+        <div class="row">
+
+            <div class="col-sm-9 mx-auto rect">
+                
+                <button class="btn btn-primary round bio-btn" id="aboutBtn">about me</button>
+                
+                <button class="btn btn-primary round bio-btn" id="projectsBtn">projects</button>
+                
+                <button class="btn btn-primary round bio-btn" id="contactBtn">contact</button>
+                
             </div>
-            <div id="portfolioArea"></div>
+            
         </div>
         
-        <!-- contact me page container -->
-        <div id="contactMeContainer">
-            <div class="container p-3 m-3 mx-auto">
-                <div class="mx-auto">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h1 class="bio-card-header">contact me</h1>
-                        </div>
-                    </div>
-                    <form>
-                        <div class="form-group">
-                            <label for="nameInput">name</label>
-                            <input type="name" class="form-control" id="nameInput" placeholder="john smith"/>
-                        </div>
-                        <div class="form-group">
-                            <label for="emailInput">email address</label>
-                            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="messageInput">message</label>
-                            <textarea class="form-control" id="messageInput" rows="9"></textarea>
-                        </div>
-                        <button type="submit" class="btn" style="background-color: rgb(40, 98, 142); color: white;">submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </main>
+    </div>
     
-    <!-- <footer class="footer-bar">&copy; Copyright 2020 Jason Mangin - see the readme file for license information</footer> -->
+    <div class="container hide" id="about">
+        
+        <div class="row">
+
+            <div class="col-sm-9 mx-auto rect-modal">
+    
+                <h3>about me</h3>
+                
+                <p>I am an aspiring full stack engineer with a lifelong passion for programming and problem-solving. Originally born and raised in Iowa, I am a fifteen year Navy veteran who has spent a large portion of my life on nuclear submarines. I have extensive experience in leadership, consulting, process improvement, and learning. Name it and there is a good chance that I have done it! Outside of work and projects, I spend most of my time baking (bread mostly) or outside hiking and biking. I am a huge fan of cinema and television as well.</p>
+                
+                <div class="text-center">
+    
+                    <button class="btn btn-primary round about-btn bio-btn" id="educationBtn">education</button>
+                    
+                    <button class="btn btn-primary round about-btn bio-btn" id="linksBtn">links</button>
+                    
+                </div>
+
+                <div class="container hide" id="educationContainer">
+
+                    <h3>education</h3>
+
+                    <div class="row m-3">
+                        
+                        <div class="col-sm-3 text-center p-3">
+
+                            <img src="assets/images/auburn.png" class="ed-image" alt="auburn university logo"/>
+                        
+                        </div>
+                        
+                        <div class="col-sm-9 p-3">
+
+                            <p>Auburn University</p>
+                            
+                            <p>B.S. Applied Mathematics</p>
+                            
+                            <p>mathematical modeling, system optimization, cryptography, algorithms</p>
+                        
+                        </div>
+                    
+                    </div>
+
+                    <div class="row m-3">
+                        
+                        <div class="col-sm-3 text-center p-3">
+
+                            <img src="assets/images/u-of-u.png" class="ed-image" alt="university of utah logo"/>
+                        
+                        </div>
+                        
+                        <div class="col-sm-9 p-3">
+
+                            <p>University of Utah</p>
+                            
+                            <p>Full Stack Flex Certificate</p>
+                            
+                            <p>html, css, javascript, bootstrap, jQuery, node.js, mongoDB, excite, react</p>
+                        
+                        </div>
+                    
+                    </div>
+
+                    <div class="row m-3">
+                        
+                        <div class="col-sm-3 text-center p-3">
+
+                            <img src="assets/images/navy.png" class="ed-image" alt="united states navy seal"/>
+                        
+                        </div>
+                        
+                        <div class="col-sm-9 p-3">
+
+                            <p>United States Navy</p>
+                            
+                            <p>Nuclear Power School</p>
+                            
+                            <p>Nuclear, Mechanical, Electrical, and Chemical theory, design, troubleshooting, operation, and leadership</p>
+                        
+                        </div>
+                    
+                    </div>
+
+                </div>
+
+                <div class="container hide" id="linksContainer">
+
+                    <h3>links</h3>
+
+                    <div class="text-center">
+                        
+                        <a href="https://www.linkedin.com/in/jason-mangin-21032065" target="_blank" class="btn btn-primary round linkedin"><i class="fab fa-linkedin mx-3"></i>LinkedIn</a>
+                        
+                        <a href="https://github.com/Jollyrgr83" target="_blank" class="btn btn-primary round github"><i class="fab fa-github mx-3"></i>GitHub</a>
+                        
+                        <a href="./assets/images/jason-mangin-resume.pdf" target="_blank" class="btn btn-primary round resume"><i class="far fa-file-pdf mx-3"></i>Resume</a>
+                    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container hide" id="projects">
+        
+        <div class="row">
+
+            <div class="col-sm-9 mx-auto rect-modal">
+    
+                <h3>projects</h3>
+                
+                <p>Here are a few of my favorite projects. Click the button to see a screenshot, details, and links.</p>
+
+                <button class="btn btn-primary round project-btn" data-index="0">skyvi3w</button>
+
+                <button class="btn btn-primary round project-btn" data-index="1">weather</button>
+
+                <button class="btn btn-primary round project-btn" data-index="2">quiz</button>
+ 
+                <div class="col-sm-6 mx-auto" id="projectContainer"></div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container hide" id="contact">
+        
+        <div class="row">
+
+            <div class="col-sm-9 mx-auto rect-modal">
+    
+                <h3>send me a message</h3>
+                
+                <form>
+
+                    <div class="form-group">
+                    
+                        <label for="nameInput">name</label>
+                    
+                        <input type="name" class="form-control" id="nameInput" placeholder="john smith"/>
+                    
+                    </div>
+                    
+                    <div class="form-group">
+                    
+                        <label for="emailInput">email address</label>
+                    
+                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                    
+                    </div>
+                    
+                    <div class="form-group">
+                    
+                        <label for="messageInput">message</label>
+                    
+                        <textarea class="form-control" id="messageInput" rows="9"></textarea>
+                    
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary round">submit</button>
+                
+                </form>
+                
+            </div>
+
+        </div>
+
+    </div>
+
     <!-- jQuery library -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <!-- bootstrap javascript (01 of 03) -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <!-- bootstrap javascript (02 of 03) -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <!-- bootstrap javascript (03 of 03) -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
     <!-- local javascript -->
     <script type="text/javascript" src="./assets/js/script.js"></script>
+
 </body>
+
 </html>

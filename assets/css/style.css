@@ -1,105 +1,104 @@
-/* header elements including navbar */
-.header-bar {
-    background-color: rgb(40, 98, 142);
-}
-#name-link {
-    color: whitesmoke;
-}
-.header-button {
-    color: whitesmoke;
-}
-/* about me section elements */
-.main-container {
-    background-color: whitesmoke;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px black;
-}
-.bio-card-header {
-    background-color: whitesmoke;
-    color: rgb(40, 98, 142);
-    font-size: 32px;
-    font-weight: normal;
-}
-.bio-image {
+/* bio image */
+.circle-img {
+    border-radius: 50%;
+    width: 300px;
     max-width: 95%;
-    width: 300px;
+    z-index: 1;
+    margin: 2.5% 1% 1% 1%;
+    box-shadow: 15px 15px 15px black;
 }
-.about-me-button {
-    width: 100%;
+/* used for background container elements */
+.rect {
+    background-color: lightslategrey;
+    box-shadow: 15px 15px 15px black;
+    border-radius: 15px;
+    margin: -15% 2.5% 2.5% 2.5%;
+    padding: 20% 2.5% 2.5% 2.5%;
 }
+.rect-modal {
+    background-color: lightslategray;
+    box-shadow: 15px 15px 15px black;
+    border-radius: 15px;
+    margin: 1%;
+    padding: 2.5%;
+}
+/* headers and text formatting */
+h3 {
+    font-family: "Indie Flower", cursive;
+    color: whitesmoke;
+    margin: 2.5%;
+}
+p {
+    margin: 1%;
+    font-family: "Open Sans", sans-serif;
+}
+form {
+    color: whitesmoke;
+    font-family: "Open Sans", sans-serif;
+}
+/* button formatting */
+.round {
+    border-radius: 40px;
+    width: 27.5%;
+    margin: 2.5%;
+    padding: 1%;
+    color: white;
+    background-color: steelblue;
+    font-family: "Indie Flower", cursive;
+    font-size: 22px;
+}
+.round:hover {
+    border-radius: 40px;
+    width: 27.5%;
+    margin: 2.5%;
+    padding: 1%;
+    color: white;
+    background-color: blue;
+}
+.about-btn {
+    width: 40%;
+}
+.about-btn:hover {
+    width: 40%;
+}
+.github {
+    background-color: #24292e;
+    color: whitesmoke;
+    font-family: "Open Sans", sans-serif;
+    width: 200px;
+}
+.linkedin {
+    background-color: #0077B5;
+    color: whitesmoke;
+    font-family: "Open Sans", sans-serif;
+    width: 200px;
+}
+.resume {
+    background-color: orangered;
+    color: whitesmoke;
+    font-family: "Open Sans", sans-serif;
+    width: 200px;
+}
+/* education institution logos */
 .ed-image {
-    max-width: 75%;
-    width: 100px;
+    width: 50%;
 }
-.bio {
-    font-size: 24px;
-    font-family: 'Assistant', sans-serif;
-}
-.professional-links {
-    color: blue;
-}
-/* portfolio section elements */
-.portfolio-img {
-    max-width: 100%;
-    width: 300px;
-    box-shadow: 5px 5px 5px lightgray;
-}
-.portfolio-link {
-    max-width: 100%;
-    font-size: 16px;
-    background-color: whitesmoke;
-    color: rgb(40, 98, 142);
+/* portfolio project elements */
+.link-container {
+    margin: 5%;
     text-align: center;
-    width: 300px;
-    padding: 5px;
 }
-.portfolio-btn {
-    width: 300px;
-    max-width: 100%;
-    background-color: rgb(40, 98, 142);
+.img-container {
+    margin: 5%;
+    text-align: center;
 }
-.card-box {
+.project-img {
     max-width: 100%;
     width: 300px;
-    background-color: rgb(40, 98, 142);
+    box-shadow: 15px 15px 15px black;
+}
+.project-link {
     color: whitesmoke;
-}
-.card-box-text {
-    font-size: 16px;
-    padding: 15px;
-    box-shadow: 5px 5px 5px lightgray;
-}
-.card-box-link {
-    color: rgb(40, 98, 142);
-    text-decoration: none;
-    font-size: 24px;
-    font-family: 'Assistant', sans-serif
-}
-.card-box-link:hover {
-    text-decoration: none;
-    font-size: 26px;
-    font-family: 'Assistant', sans-serif
-}
-a {
-    color: whitesmoke;
-    text-decoration: none;
-}   
-/* main page elements */
-.background-img {
-    background-image: url("../images/background.jpg");
-    background-size: cover;
-}
-body {
-    box-sizing: border-box;
-    padding-bottom: 4%;    
-}
-html {
-    min-height: 100vh;
-}
-/* used to show and hide sections */
-.show {
-    display: block;
-}
-.hide {
-    display: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
 }
