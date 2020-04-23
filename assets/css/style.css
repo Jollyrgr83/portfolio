@@ -33,6 +33,9 @@
     font-size: 24px;
     font-family: 'Assistant', sans-serif;
 }
+.professional-links {
+    color: blue;
+}
 /* portfolio section elements */
 .portfolio-img {
     max-width: 100%;
