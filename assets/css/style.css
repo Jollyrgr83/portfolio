@@ -9,11 +9,14 @@
     background-color: lightseagreen;
 }
 /* bio image */
+.circle-container {
+    z-index: 1;
+}
 .circle-img {
     border-radius: 100%;
-    width: 25%;
-    height: auto;
-    z-index: 1;
+    /* width: 75%; */
+    height: 300px;
+    /* z-index: 1; */
     margin: 2.5% 1% 1% 1%;
     box-shadow: 5px 5px 5px black;
 }
@@ -22,7 +25,7 @@
     background-color: lightslategrey;
     box-shadow: 15px 15px 15px black;
     border-radius: 15px;
-    margin: -15% 2.5% 2.5% 2.5%;
+    margin: -20% 2.5% 2.5% 2.5%;
     padding: 20% 2.5% 2.5% 2.5%;
 }
 .rect-modal {
