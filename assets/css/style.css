@@ -1,3 +1,8 @@
+/* background image */
+.background-img {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
 /* bio image */
 .circle-img {
     border-radius: 50%;
@@ -101,4 +106,34 @@ form {
     color: whitesmoke;
     font-family: "Open Sans", sans-serif;
     font-size: 21px;
+}
+/* contact information formatting */
+.contact-info {
+    color: whitesmoke;
+    font-size: 28px;
+    font-family: "Indie Flower", cursive;
+    border: solid 2pt black;
+    background-color: none;
+    margin: 2.5%;
+    padding: 2.5%;
+    width: 350px;
+    text-align: center;
+}
+.contact-info:hover {
+    color: whitesmoke;
+    font-size: 28px;
+    font-family: "Indie Flower", cursive;
+    border: solid 2pt black;
+    background-color: blue;
+    margin: 2.5%;
+    padding: 2.5%;
+    width: 350px;
+    text-align: center;
+}
+/* show and hide classes used in script.js */
+.show {
+    display: block;
+}
+.hide {
+    display: none;
 }

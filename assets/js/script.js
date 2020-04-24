@@ -110,6 +110,11 @@ function display(page) {
             $("#educationContainer").attr("class", hide);
             $("#linksContainer").attr("class", show);
             break;
+        case "hide":
+            $("#about").attr("class", hide);
+            $("#projects").attr("class", hide);
+            $("#contact").attr("class", hide);
+            break;
     }
 }
 // renders the project links and associated elements
@@ -177,3 +182,5 @@ $(document).on("click", ".project-btn", function(event) {
     var indexNumber = $(event.target).attr("data-index");
     renderProject(indexNumber);
 });
+// starting script
+display("hide");
