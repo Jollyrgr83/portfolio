@@ -1,16 +1,21 @@
 /* background image */
 .background-img {
     background-image: url("../images/background.jpg");
+    height: 1500px;
+    position: relative;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: lightseagreen;
 }
 /* bio image */
 .circle-img {
-    border-radius: 50%;
+    border-radius: 100%;
     width: 25%;
     height: auto;
     z-index: 1;
     margin: 2.5% 1% 1% 1%;
-    box-shadow: 15px 15px 15px black;
+    box-shadow: 5px 5px 5px black;
 }
 /* used for background container elements */
 .rect {
