@@ -14,9 +14,7 @@
 }
 .circle-img {
     border-radius: 100%;
-    /* width: 75%; */
     height: 300px;
-    /* z-index: 1; */
     margin: 2.5% 1% 1% 1%;
     box-shadow: 5px 5px 5px black;
 }

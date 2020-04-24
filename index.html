@@ -207,14 +207,14 @@
                 </div>
     
                 <h3>or send me a message</h3>
-                
-                <form>
+
+                <form action="https://formspree.io/mvobedaz" method="POST">
 
                     <div class="form-group">
                     
                         <label for="nameInput">name</label>
                     
-                        <input type="name" class="form-control" id="nameInput" placeholder="john smith"/>
+                        <input type="name" class="form-control" id="nameInput" placeholder="john smith" name="name"/>
                     
                     </div>
                     
@@ -222,7 +222,7 @@
                     
                         <label for="emailInput">email address</label>
                     
-                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" name="_replyto"/>
                     
                     </div>
                     
@@ -230,7 +230,7 @@
                     
                         <label for="messageInput">message</label>
                     
-                        <textarea class="form-control" id="messageInput" rows="9"></textarea>
+                        <textarea class="form-control" id="messageInput" rows="9" name="message"></textarea>
                     
                     </div>
                     
