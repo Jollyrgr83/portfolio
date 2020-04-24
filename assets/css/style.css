@@ -6,9 +6,8 @@
 /* bio image */
 .circle-img {
     border-radius: 50%;
-    width: 300px;
+    width: 25%;
     height: auto;
-    max-width: 95%;
     z-index: 1;
     margin: 2.5% 1% 1% 1%;
     box-shadow: 15px 15px 15px black;
