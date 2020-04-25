@@ -47,9 +47,20 @@ h2 {
     color: whitesmoke;
     margin: 2.5%;
 }
+h3 {
+    font-family: "Open Sans", sans-serif;
+    color: whitesmoke;
+    margin: 2.5%;
+}
+h4 {
+    font-family: "Open Sans", sans-serif;
+    color: whitesmoke;
+    margin: 2.5%;
+}
 p {
     margin: 1%;
     font-family: "Open Sans", sans-serif;
+    color: whitesmoke;
 }
 form {
     color: whitesmoke;
@@ -101,7 +112,7 @@ form {
 }
 /* education institution logos */
 .ed-image {
-    width: 50%;
+    width: 75%;
     margin-top: 15%;
 }
 /* portfolio project elements */
