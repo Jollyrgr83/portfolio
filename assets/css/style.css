@@ -18,6 +18,9 @@
     margin: 2.5% 1% 1% 1%;
     box-shadow: 5px 5px 5px black;
 }
+.name-tag {
+    z-index: 2;
+}
 /* used for background container elements */
 .rect {
     background-color: lightslategrey;
@@ -34,7 +37,12 @@
     padding: 2.5%;
 }
 /* headers and text formatting */
-h3 {
+h1 {
+    font-family: "Indie Flower", cursive;
+    color: whitesmoke;
+    font-size: 42pt;
+}
+h2 {
     font-family: "Indie Flower", cursive;
     color: whitesmoke;
     margin: 2.5%;
@@ -46,6 +54,7 @@ p {
 form {
     color: whitesmoke;
     font-family: "Open Sans", sans-serif;
+    margin: 2.5%;
 }
 /* button formatting */
 .round {
@@ -93,6 +102,7 @@ form {
 /* education institution logos */
 .ed-image {
     width: 50%;
+    margin-top: 15%;
 }
 /* portfolio project elements */
 .link-container {
