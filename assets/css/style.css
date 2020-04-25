@@ -31,7 +31,7 @@
 }
 .rect-modal {
     background-color: lightslategray;
-    box-shadow: 15px 15px 15px black;
+    box-shadow: 5px 5px 15px black;
     border-radius: 15px;
     margin: 1%;
     padding: 2.5%;
@@ -119,6 +119,10 @@ form {
 .link-container {
     margin: 5%;
     text-align: center;
+    width: 90%;
+    padding: 1%;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 15px black;
 }
 .img-container {
     margin: 5%;
@@ -126,20 +130,32 @@ form {
 }
 .project-img {
     max-width: 100%;
-    width: 300px;
-    box-shadow: 15px 15px 15px black;
+    width: 100%;
+    box-shadow: 5px 5px 15px black;
 }
 .project-link {
-    color: whitesmoke;
+    color: steelblue;
     font-family: "Open Sans", sans-serif;
-    font-size: 21px;
+    /* font-family: "Indie Flower", cursive; */
+    font-size: 18pt;
+}
+.project-text {
+    text-align: center;
+    color: whitesmoke;
+}
+.project-text-container {
+    background-color: steelblue;
+    box-shadow: 5px 5px 15px black;
+    padding: 1%;
+    margin: 5%;
+    width: 90%;
 }
 /* contact information formatting */
 .contact-info {
     color: whitesmoke;
     font-size: 28px;
     font-family: "Indie Flower", cursive;
-    border: solid 2pt black;
+    border: solid 2pt whitesmoke;
     background-color: none;
     margin: 2.5%;
     padding: 2.5%;
@@ -147,11 +163,11 @@ form {
     text-align: center;
 }
 .contact-info:hover {
-    color: whitesmoke;
+    color: blue;
     font-size: 28px;
     font-family: "Indie Flower", cursive;
-    border: solid 2pt black;
-    background-color: blue;
+    border: solid 2pt blue;
+    background-color: whitesmoke;
     margin: 2.5%;
     padding: 2.5%;
     width: 350px;

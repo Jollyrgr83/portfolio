@@ -129,21 +129,23 @@ function renderProject(indexNumber) {
     imgEl.attr("src", portfolio.projects[indexNumber].image);
     imgEl.attr("alt", portfolio.projects[indexNumber].alt);
     var linkContainerEl = $("<div>");
-    linkContainerEl.attr("class", "link-container");
+    linkContainerEl.attr("class", "link-container mx-auto");
     var linkEl = $("<a>");
     linkEl.attr("class", "project-link");
     linkEl.attr("href", portfolio.projects[indexNumber].url);
     linkEl.attr("target", "_blank");
     linkEl.text(portfolio.projects[indexNumber].title + " live page");
     var repoContainerEl = $("<div>");
-    repoContainerEl.attr("class", "link-container");
+    repoContainerEl.attr("class", "link-container mx-auto");
     var repoEl = $("<a>");
     repoEl.attr("class", "project-link");
     repoEl.attr("href", portfolio.projects[indexNumber].git);
     repoEl.attr("target", "_blank");
     repoEl.text(portfolio.projects[indexNumber].title + " repository");
     var textContainerEl = $("<div>");
+    textContainerEl.attr("class", "project-text-container mx-auto")
     var textEl = $("<p>");
+    textEl.attr("class", "project-text");
     textEl.text(portfolio.projects[indexNumber].text);
     // append html elements
     imgContainerEl.append(imgEl);
