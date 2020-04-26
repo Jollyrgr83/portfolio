@@ -1,3 +1,9 @@
+/* Google fonts 
+font-family: 'Indie Flower', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Swanky and Moo Moo', cursive;
+font-family: 'Open Sans', sans-serif; */
+
 /* background image */
 .background-img {
     background-image: url("../images/background.jpg");
@@ -9,65 +15,72 @@
     background-color: lightseagreen;
 }
 /* bio image */
-.circle-container {
+.bio-img-container {
     z-index: 1;
 }
-.circle-img {
+.bio-img {
     border-radius: 100%;
     height: 300px;
     margin: 2.5% 1% 1% 1%;
     box-shadow: 5px 5px 5px black;
 }
+/* used for name tag and top container positioning */
 .name-tag {
     z-index: 2;
 }
-/* used for background container elements */
-.rect {
+.name-tag-position {
     background-color: lightslategrey;
     box-shadow: 15px 15px 15px black;
     border-radius: 15px;
     margin: -20% 2.5% 2.5% 2.5%;
     padding: 20% 2.5% 2.5% 2.5%;
 }
-.rect-modal {
+/* used for container elements */
+.rectangle {
     background-color: lightslategray;
     box-shadow: 5px 5px 15px black;
     border-radius: 15px;
     margin: 1%;
     padding: 2.5%;
 }
-/* headers and text formatting */
+/* name tag */
 h1 {
     font-family: "Indie Flower", cursive;
+    /* font-family: 'Swanky and Moo Moo', cursive; */
     color: whitesmoke;
     font-size: 42pt;
 }
+/* section headers */
 h2 {
-    font-family: "Indie Flower", cursive;
+    font-family: "Architects Daughter", cursive;
     color: whitesmoke;
     margin: 2.5%;
 }
+/* education institution titles */
 h3 {
     font-family: "Open Sans", sans-serif;
     color: whitesmoke;
     margin: 2.5%;
 }
+/* education program titles */
 h4 {
     font-family: "Open Sans", sans-serif;
     color: whitesmoke;
     margin: 2.5%;
 }
-p {
-    margin: 1%;
-    font-family: "Open Sans", sans-serif;
-    color: whitesmoke;
-}
+/* form text */
 form {
     color: whitesmoke;
     font-family: "Open Sans", sans-serif;
     margin: 2.5%;
 }
-/* button formatting */
+/* all other text */
+p {
+    margin: 1%;
+    font-family: "Open Sans", sans-serif;
+    color: whitesmoke;
+}
+/* most buttons */
 .round {
     border-radius: 40px;
     width: 27.5%;
@@ -86,24 +99,28 @@ form {
     color: white;
     background-color: blue;
 }
+/* education and links buttons */
 .about-btn {
     width: 40%;
 }
 .about-btn:hover {
     width: 40%;
 }
+/* GitHub button under links */
 .github {
     background-color: #24292e;
     color: whitesmoke;
     font-family: "Open Sans", sans-serif;
     width: 200px;
 }
+/* LinkedIn button under links */
 .linkedin {
     background-color: #0077B5;
     color: whitesmoke;
     font-family: "Open Sans", sans-serif;
     width: 200px;
 }
+/* resume button under links */
 .resume {
     background-color: orangered;
     color: whitesmoke;
@@ -116,14 +133,6 @@ form {
     margin-top: 15%;
 }
 /* portfolio project elements */
-.link-container {
-    margin: 5%;
-    text-align: center;
-    width: 90%;
-    padding: 1%;
-    background-color: whitesmoke;
-    box-shadow: 5px 5px 15px black;
-}
 .img-container {
     margin: 5%;
     text-align: center;
@@ -133,15 +142,18 @@ form {
     width: 100%;
     box-shadow: 5px 5px 15px black;
 }
+.link-container {
+    margin: 5%;
+    text-align: center;
+    width: 90%;
+    padding: 1%;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 15px black;
+}
 .project-link {
     color: steelblue;
-    font-family: "Open Sans", sans-serif;
-    /* font-family: "Indie Flower", cursive; */
+    font-family: "Architects Daughter", cursive;
     font-size: 18pt;
-}
-.project-text {
-    text-align: center;
-    color: whitesmoke;
 }
 .project-text-container {
     background-color: steelblue;
@@ -150,7 +162,11 @@ form {
     margin: 5%;
     width: 90%;
 }
-/* contact information formatting */
+.project-text {
+    text-align: center;
+    color: whitesmoke;
+}
+/* email and phone contact information formatting */
 .contact-info {
     color: whitesmoke;
     font-size: 28px;
