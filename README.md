@@ -4,19 +4,19 @@ Welcome to my portfolio!  This project is intended to provide information about 
 
 <https://jollyrgr83.github.io/portfolio-new/>
 
-# Requirements
+## Requirements
 
 This project was designed to be used on any web browser.
 
-# Installation
+## Installation
 
 This project does not require installation.
 
-# Technology/Framework
+## Technology/Framework
 
 This project was created using html, css, javascript, and bootstrap and jQuery libraries.
 
-# How to Use
+## How to Use
 
 This project consists of 3 pages:
 
@@ -29,11 +29,11 @@ This page contains links to a few of my projects.
 "Contact Me" (contact.html)
 This page contains a contact form to allow you to send me a message.
 
-# Credits
+## Credits
 
 I would like to thank all the instructors, TAs, and staff at the University of Utah Coding Bootcamp for the instruction, curriculum, inspiration, and other support provided to assist me in the creation of this project.
 
-# License
+## License
 
 Released under MIT License
 
