@@ -129,7 +129,7 @@ p {
 }
 /* maintain button width on hover */
 .pro-link:hover {
-    width: 200px;
+    width: 200px !important;
 }
 /* education institution logos */
 .ed-image {
