@@ -58,26 +58,30 @@ h2 {
 }
 /* education institution titles */
 h3 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", "Open Sans", sans-serif;
+    font-weight: 300;
     color: whitesmoke;
     margin: 2.5%;
 }
 /* education program titles */
 h4 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", "Open Sans", sans-serif;
+    font-weight: 300;
     color: whitesmoke;
     margin: 2.5%;
 }
 /* form text */
 form {
     color: whitesmoke;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", "Open Sans", sans-serif;
+    font-weight: 300;
     margin: 2.5%;
 }
 /* all other text */
 p {
     margin: 1%;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", "Open Sans", sans-serif;
+    font-weight: 300;
     color: whitesmoke;
 }
 /* most buttons */
@@ -110,21 +114,24 @@ p {
 .github {
     background-color: #24292e;
     color: whitesmoke;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", "Open Sans", sans-serif;
+    font-weight: 300;
     width: 200px;
 }
 /* LinkedIn button under links */
 .linkedin {
     background-color: #0077B5;
     color: whitesmoke;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", "Open Sans", sans-serif;
+    font-weight: 300;
     width: 200px;
 }
 /* resume button under links */
 .resume {
     background-color: orangered;
     color: whitesmoke;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", "Open Sans", sans-serif;
+    font-weight: 300;
     width: 200px;
 }
 /* maintain button width on hover */
@@ -145,6 +152,7 @@ p {
     max-width: 100%;
     width: 100%;
     box-shadow: 5px 5px 15px black;
+    border-radius: 10px;
 }
 .link-container {
     margin: 5%;
@@ -153,6 +161,7 @@ p {
     padding: 1%;
     background-color: whitesmoke;
     box-shadow: 5px 5px 15px black;
+    border-radius: 10px;
 }
 .project-link {
     color: steelblue;
@@ -165,6 +174,7 @@ p {
     padding: 1%;
     margin: 5%;
     width: 90%;
+    border-radius: 10px;
 }
 .project-text {
     text-align: center;
@@ -181,6 +191,7 @@ p {
     padding: 2.5%;
     width: 350px;
     text-align: center;
+    border-radius: 40px;
 }
 .contact-info:hover {
     color: blue;
@@ -192,6 +203,7 @@ p {
     padding: 2.5%;
     width: 350px;
     text-align: center;
+    border-radius: 40px;
 }
 /* show and hide classes used in script.js */
 .show {
