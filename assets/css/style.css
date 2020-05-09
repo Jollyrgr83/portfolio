@@ -100,8 +100,9 @@ p {
     width: 27.5%;
     margin: 2.5%;
     padding: 1%;
-    color: white;
-    background-color: blue;
+    color: blue;
+    background-color: white;
+    font-weight: bold;
 }
 /* education and links buttons */
 .about-btn {
@@ -109,6 +110,9 @@ p {
 }
 .about-btn:hover {
     width: 40%;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
 }
 /* GitHub button under links */
 .github {
@@ -117,6 +121,7 @@ p {
     font-family: "Lato", "Open Sans", sans-serif;
     font-weight: 300;
     width: 200px;
+    border: solid 1px black;
 }
 /* LinkedIn button under links */
 .linkedin {
@@ -125,6 +130,7 @@ p {
     font-family: "Lato", "Open Sans", sans-serif;
     font-weight: 300;
     width: 200px;
+    border: solid 1px #0077B5;
 }
 /* resume button under links */
 .resume {
@@ -133,10 +139,15 @@ p {
     font-family: "Lato", "Open Sans", sans-serif;
     font-weight: 300;
     width: 200px;
+    border: solid 1px orangered;
 }
 /* maintain button width on hover */
 .pro-link:hover {
     width: 200px !important;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    font-family: "Indie Flower", cursive;
 }
 /* education institution logos */
 .ed-image {
