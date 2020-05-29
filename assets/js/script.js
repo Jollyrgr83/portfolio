@@ -24,47 +24,32 @@ var portfolio = {
             "image" : "./assets/images/coding-quiz.png",
             "alt" : "screenshot of coding quiz home screen",
             "text" : "This is a 10-question quiz covering basic programming knowledge. It contains dynamic html updating and DOM manipulation, client storage, and a timer all using javascript."
+        },
+        3 : {
+            "title" : "burger",
+            "url" : "https://guarded-journey-29239.herokuapp.com/",
+            "git" : "https://github.com/Jollyrgr83/burger.git",
+            "image" : "./assets/images/burger.png",
+            "alt" : "screenshot of burger project home screen",
+            "text" : "This is an app that allows users to keep track of the hamburgers that they would like to eat and update their status as they eat them. It uses express, handlebars, and mysql."
+        },
+        4 : {
+            "title" : "event scoring database",
+            "url" : "https://jollyrgr83.github.io/event-scoring-database/",
+            "git" : "https://github.com/Jollyrgr83/event-scoring-database.git",
+            "image" : "./assets/images/event-scoring-database.png",
+            "alt" : "screenshot of event scoring database project home screen",
+            "text" : "This is an app that allows users to keep track of scores relating to a sporting event with multiple events and tiers of competitors. It is a work in progress."
+        },
+        5 : {
+            "title" : "day planner",
+            "url" : "https://jollyrgr83.github.io/day-planner/",
+            "git" : "https://github.com/Jollyrgr83/day-planner.git",
+            "image" : "./assets/images/day-planner.png",
+            "alt" : "screenshot of day planner project home screen",
+            "text" : "This is an app that allows users to keep track of their daily schedule."
         }
-        // 1 : {
-        //     "title" : "game",
-        //     "url" : "https://jollyrgr83.github.io/game/",
-        //     "git" : "https://github.com/Jollyrgr83/game.git",
-        //     "image" : "./assets/images/game.png",
-        //     "alt" : "screenshot of game home screen",
-        //     "text" : "This is the beginning of a war-based role playing game. It contains dynamic html updating and DOM manipulation using javascript. It is a work in progress."
-        // },
-        // 2 : {
-        //     "title" : "password generator",
-        //     "url" : "https://jollyrgr83.github.io/password-generator/",
-        //     "git" : "https://github.com/Jollyrgr83/password-generator.git",
-        //     "image" : "./assets/images/password-generator.png",
-        //     "alt" : "screenshot of password generator home screen",
-        //     "text" : "This is a password generator that allows you to select criteria and randomly generate a password meeting those criteria. Specifically, you can select a password from 8 to 128 (inclusive) characters consisting of lowercase, uppercase, numeric, and/or special characters."
-        // },
-        // 3 : {
-        //     "title" : "password vault",
-        //     "url" : "https://jollyrgr83.github.io/password-vault/",
-        //     "git" : "https://github.com/Jollyrgr83/password-vault.git",
-        //     "image" : "./assets/images/password-vault.png",
-        //     "alt" : "screenshot of password vault home screen",
-        //     "text" : "This is a quick project that is in its beginning phases. It is intended to be a mobile site that stores and displays login information for various websites."
-        // },
-        // 4 : {
-        //     "title" : "event scoring database",
-        //     "url" : "https://jollyrgr83.github.io/event-scoring-database/",
-        //     "git" : "https://github.com/Jollyrgr83/event-scoring-database.git",
-        //     "image" : "./assets/images/event-scoring-database.png",
-        //     "alt" : "screenshot of event scoring database home screen",
-        //     "text" : "This is the beginning of a larger project that I hope to have completed later this year. A public power utility in the southeast organizes a lineworkers rodeo event every year that consists of two tiers of competitors, each completing five events that receive an associated score and time. Calculating and reporting the overall scores has historically been a challenge due to the amount and type of data and the need for tie-breaking. At completion, this project will record, analyze, and display data as well as generate the necessary reports for this event."
-        // },
-        // 5 : {
-        //     "title" : "day planner",
-        //     "url" : "https://jollyrgr83.github.io/day-planner/",
-        //     "git" : "https://github.com/Jollyrgr83/day-planner.git",
-        //     "image" : "./assets/images/day-planner.png",
-        //     "alt" : "screenshot of day planner home screen",
-        //     "text" : "This is a day planner project that was assigned as part of the University of Utah full stack coding bootcamp. It dynamically updates formatting based on the current hour and allows users to input tasks for a workday."
-        // },
+ 
     },
     "placeholder" : {
         "title" : "coming soon",

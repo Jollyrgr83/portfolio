@@ -120,8 +120,12 @@ p {
     color: whitesmoke;
     font-family: "Lato", "Open Sans", sans-serif;
     font-weight: 300;
-    width: 200px;
+    width: 350px;
     border: solid 1px black;
+    font-size: 28px;
+    max-width: 100%;
+    margin: 2.5%;
+    padding: 2.5%;
 }
 /* LinkedIn button under links */
 .linkedin {
@@ -129,8 +133,12 @@ p {
     color: whitesmoke;
     font-family: "Lato", "Open Sans", sans-serif;
     font-weight: 300;
-    width: 200px;
+    width: 350px;
     border: solid 1px #0077B5;
+    font-size: 28px;
+    max-width: 100%;
+    margin: 2.5%;
+    padding: 2.5%;
 }
 /* resume button under links */
 .resume {
@@ -138,16 +146,24 @@ p {
     color: whitesmoke;
     font-family: "Lato", "Open Sans", sans-serif;
     font-weight: 300;
-    width: 200px;
+    width: 350px;
     border: solid 1px orangered;
+    font-size: 28px;
+    max-width: 100%;
+    margin: 2.5%;
+    padding: 2.5%;
 }
 /* maintain button width on hover */
 .pro-link:hover {
-    width: 200px !important;
+    width: 350px !important;
     background-color: white;
     color: blue;
     font-weight: bold;
     font-family: "Indie Flower", cursive;
+    font-size: 28px;
+    max-width: 100%;
+    margin: 2.5%;
+    padding: 2.5%;
 }
 /* education institution logos */
 .ed-image {
