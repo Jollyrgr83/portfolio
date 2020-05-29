@@ -35,7 +35,7 @@ var portfolio = {
         },
         4 : {
             "title" : "event scoring database",
-            "url" : "https://jollyrgr83.github.io/event-scoring-database/",
+            "url" : "https://murmuring-harbor-26813.herokuapp.com/",
             "git" : "https://github.com/Jollyrgr83/event-scoring-database.git",
             "image" : "./assets/images/event-scoring-database.png",
             "alt" : "screenshot of event scoring database project home screen",
