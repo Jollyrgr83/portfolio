@@ -1,5 +1,5 @@
 // stores associated project information
-var portfolio = {
+const portfolio = {
     "projects" : {
         0 : {
             "title" : "skyvi3w",
@@ -60,6 +60,7 @@ var portfolio = {
         "text" : "coming soon"
     }
 };
+
 // change "page" that is displayed using show and hide classes
 function display(page) {
     var className = "container ";
