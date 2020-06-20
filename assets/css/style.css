@@ -67,10 +67,12 @@ h2 {
   background-color: none;
   color: navy;
   border: none;
+  border-radius: 15px;
   font-family: "Architects Daughter", cursive;
   font-weight: 300;
   font-size: 32px;
-  margin: 10px;
+  margin: 10px 0 10px 0;
+  padding: 10px;
   text-align: left;
 }
 /* education titles */
