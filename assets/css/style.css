@@ -1,236 +1,263 @@
-/* Google fonts 
-font-family: 'Indie Flower', cursive;
-font-family: 'Architects Daughter', cursive;
-font-family: 'Swanky and Moo Moo', cursive;
-font-family: 'Open Sans', sans-serif; */
-
-/* background image */
-.background-img {
-    background-image: url("../images/background.jpg");
-    height: 1500px;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: lightseagreen;
+/* body sizing and background */
+.background {
+  width: 375px;
+  background-color: rgba(119, 136,153, 50%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding: 10px;
 }
-/* bio image */
-.bio-img-container {
-    z-index: 1;
+/* logo */
+.logo {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px black;
 }
-.bio-img {
-    border-radius: 100%;
-    height: 300px;
-    margin: 2.5% 1% 1% 1%;
-    box-shadow: 5px 5px 5px black;
+/* education institution images */
+.ed {
+  width: 150px;
+  padding-top: 20px;
 }
-/* used for name tag and top container positioning */
-.name-tag {
-    z-index: 2;
+/* container elements */
+.section-container {
+  background-color: lightslategray;
+  color: steelblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px;
+  padding: 10px;
 }
-.name-tag-position {
-    background-color: lightslategrey;
-    box-shadow: 15px 15px 15px black;
-    border-radius: 15px;
-    margin: -20% 2.5% 2.5% 2.5%;
-    padding: 20% 2.5% 2.5% 2.5%;
+/* container element for education images */
+.ed-container {
+  background-color: steelblue;
+  border-radius: 100%;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
 }
-/* used for container elements */
-.rectangle {
-    background-color: lightslategray;
-    box-shadow: 5px 5px 15px black;
-    border-radius: 15px;
-    margin: 1%;
-    padding: 2.5%;
+/* container element for education text */
+.ed-text-container {
+  background-color: steelblue;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px;
+  padding: 10px;
+  width: 315px;
 }
-/* name tag */
+/* main titles */
 h1 {
-    font-family: "Indie Flower", cursive;
-    /* font-family: 'Swanky and Moo Moo', cursive; */
-    color: whitesmoke;
-    font-size: 42pt;
+  background-color: navy;
+  color: lightgray;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 300;
+  font-size: 42px;
+  margin: 10px;
+  padding: 10px;
 }
-/* section headers */
+/* section titles */
 h2 {
-    font-family: "Architects Daughter", cursive;
-    color: whitesmoke;
-    margin: 2.5%;
+  background-color: none;
+  color: navy;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 300;
+  font-size: 32px;
+  margin: 10px;
+  text-align: left;
 }
-/* education institution titles */
+/* education titles */
 h3 {
-    font-family: "Lato", "Open Sans", sans-serif;
-    font-weight: 300;
-    color: whitesmoke;
-    margin: 2.5%;
+  background-color: none;
+  color: navy;
+  border: none;
+  font-size: 28px;
+  margin: 10px;
+  padding: 0;
 }
-/* education program titles */
+/* education subtitles */
 h4 {
-    font-family: "Lato", "Open Sans", sans-serif;
-    font-weight: 300;
-    color: whitesmoke;
-    margin: 2.5%;
+  background-color: none;
+  color: navy;
+  border: none;
+  font-size: 22px;
+  margin: 10px;
+  padding: 0;
 }
-/* form text */
-form {
-    color: whitesmoke;
-    font-family: "Lato", "Open Sans", sans-serif;
-    font-weight: 300;
-    margin: 2.5%;
+/* section text */
+.section-text {
+  background-color: none;
+  color: lightgray;
+  border: none;
+  font-size: 16px;
+  margin: 10px;
+  text-align: left; 
 }
-/* all other text */
-p {
-    margin: 1%;
-    font-family: "Lato", "Open Sans", sans-serif;
-    font-weight: 300;
-    color: whitesmoke;
+/* education text */
+.ed-text {
+  color: navy;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
 }
-/* most buttons */
-.round {
-    border-radius: 40px;
-    width: 27.5%;
-    margin: 2.5%;
-    padding: 1%;
-    color: white;
-    background-color: steelblue;
-    font-family: "Indie Flower", cursive;
-    font-size: 22px;
+/* buttons */
+.button {
+  background-color: steelblue;
+  color: navy;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 2px 2px 5px black;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 300;
+  font-size: 21px;
+  outline: none;
+  margin: 10px;
+  padding: 5px;
+  width: 110px;
 }
-.round:hover {
-    border-radius: 40px;
-    width: 27.5%;
-    margin: 2.5%;
-    padding: 1%;
-    color: blue;
-    background-color: white;
-    font-weight: bold;
+.button:hover, .button:focus {
+  cursor: pointer;
+  opacity: 0.7;
+  border: none;
+  outline: none;
+  color: whitesmoke;
 }
-/* education and links buttons */
-.about-btn {
-    width: 40%;
+/* square buttons */
+.square {
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px;
+  padding-top: 10px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 24px;
+  height: 2.25em;
+  width: 2.25em;
 }
-.about-btn:hover {
-    width: 40%;
-    background-color: white;
-    color: blue;
-    font-weight: bold;
+.square:hover, .square:focus {
+  color: white;
+  text-decoration: none;
+  opacity: 0.7;
+  border: none;
+  outline: none;
 }
-/* GitHub button under links */
-.github {
-    background-color: #24292e;
-    color: whitesmoke;
-    font-family: "Lato", "Open Sans", sans-serif;
-    font-weight: 300;
-    width: 350px;
-    border: solid 1px black;
-    font-size: 28px;
-    max-width: 100%;
-    margin: 2.5%;
-    padding: 2.5%;
-}
-/* LinkedIn button under links */
 .linkedin {
-    background-color: #0077B5;
-    color: whitesmoke;
-    font-family: "Lato", "Open Sans", sans-serif;
-    font-weight: 300;
-    width: 350px;
-    border: solid 1px #0077B5;
-    font-size: 28px;
-    max-width: 100%;
-    margin: 2.5%;
-    padding: 2.5%;
+  background-color: #0077B5;
 }
-/* resume button under links */
+.github {
+  background-color: #24292e;
+}
 .resume {
-    background-color: orangered;
-    color: whitesmoke;
-    font-family: "Lato", "Open Sans", sans-serif;
-    font-weight: 300;
-    width: 350px;
-    border: solid 1px orangered;
-    font-size: 28px;
-    max-width: 100%;
-    margin: 2.5%;
-    padding: 2.5%;
+  background-color: orangered;
 }
-/* maintain button width on hover */
-.pro-link:hover {
-    width: 350px !important;
-    background-color: white;
-    color: blue;
-    font-weight: bold;
-    font-family: "Indie Flower", cursive;
-    font-size: 28px;
-    max-width: 100%;
-    margin: 2.5%;
-    padding: 2.5%;
-}
-/* education institution logos */
-.ed-image {
-    width: 75%;
-    margin-top: 15%;
-}
-/* portfolio project elements */
-.img-container {
-    margin: 5%;
-    text-align: center;
+/* project display elements */
+select:enabled, select:active, select:focus {
+  background-color: lightgray;
+  color: navy;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  width: 315px;
 }
 .project-img {
-    max-width: 100%;
-    width: 100%;
-    box-shadow: 5px 5px 15px black;
-    border-radius: 10px;
+  width: 315px;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 15px;
+  margin: 10px;
 }
 .link-container {
-    margin: 5%;
-    text-align: center;
-    width: 90%;
-    padding: 1%;
-    background-color: whitesmoke;
-    box-shadow: 5px 5px 15px black;
-    border-radius: 10px;
+  background-color: lightgray;
+  color: navy;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px 10px 20px 10px;
+  padding: 10px;  
+  text-align: center;
+  width: 315px;
 }
 .project-link {
-    color: steelblue;
-    font-family: "Architects Daughter", cursive;
-    font-size: 18pt;
-}
-.project-text-container {
-    background-color: steelblue;
-    box-shadow: 5px 5px 15px black;
-    padding: 1%;
-    margin: 5%;
-    width: 90%;
-    border-radius: 10px;
+  color: navy;
+  font-family: "Architects Daughter", cursive;
+  font-size: 18px;
 }
 .project-text {
-    text-align: center;
-    color: whitesmoke;
+  background-color: steelblue;
+  color: navy;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
 }
 /* email and phone contact information formatting */
 .contact-info {
-    color: whitesmoke;
-    font-size: 28px;
-    font-family: "Indie Flower", cursive;
-    border: solid 2pt whitesmoke;
-    background-color: none;
-    margin: 2.5%;
-    padding: 2.5%;
-    width: 350px;
-    text-align: center;
-    border-radius: 40px;
+  background-color: lightgray;
+  color: navy;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+  font-size: 18px;
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  margin: 10px !important;
+  padding: 10px !important;
+  width: 315px !important;
 }
-.contact-info:hover {
-    color: blue;
-    font-size: 28px;
-    font-family: "Indie Flower", cursive;
-    border: solid 2pt blue;
-    background-color: whitesmoke;
-    margin: 2.5%;
-    padding: 2.5%;
-    width: 350px;
-    text-align: center;
-    border-radius: 40px;
+/* contact form */
+label {
+  background-color: none;
+  color: navy;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 300;
+  font-size: 22px;
+  margin: 10px;
+  padding: 0;
+  text-align: left !important;
+  width: 315px;
+}
+input:enabled, input:active, input:focus {
+  background-color: whitesmoke;
+  color: navy;
+  box-shadow: 2px 2px 5px black;
+  border: none;
+  border-radius: 15px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 300;
+  font-size: 22px;
+  margin: 0 10px 10px 10px;
+  padding: 5px 5px 5px 10px;
+  text-align: left !important;
+  width: 315px;
+}
+textarea:enabled, textarea:active, textarea:focus {
+  background-color: whitesmoke;
+  color: navy;
+  box-shadow: 2px 2px 5px black;
+  border: none;
+  border-radius: 15px;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 300;
+  font-size: 22px;
+  margin: 0 10px 0 10px;
+  padding: 5px 5px 5px 10px;
+  text-align: left !important;
+  width: 315px;
 }
 /* show and hide classes used in script.js */
 .show {

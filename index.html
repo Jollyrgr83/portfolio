@@ -1,277 +1,114 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
-    <meta charset="UTF-8"/>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-    <title>Portfolio | Jason Mangin</title>
-
-    <!-- favicon -->
-    <link rel="icon" type="image/png" href="./assets/images/favicon.png"/>
-
-    <!-- bootstrap style sheet -->
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
-
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
-
-    <!-- fontawesome style sheet -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" type="text/css"/>
-
-    <!-- jQuery script for fontawesome to work with jQuery -->
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
-
-    <!-- local style sheet -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
-
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Jason Mangin</title>
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="./assets/images/favicon.png"/>
+  <!-- bootstrap style sheet -->
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet" />
+  <!-- fontawesome style sheet -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" type="text/css" />
+  <!-- jQuery script for fontawesome to work with jQuery -->
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+  <!-- local style sheet -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+  <!-- jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- local javascript -->
+  <script type="text/javascript" src="./assets/js/script.js"></script>
 </head>
-
-<body class="background-img">
-
-    <section class="container">
-
-        <div class="row">
-
-            <div class="col-sm-12 bio-img-container text-center mx-auto">
-
-                <img src="assets/images/bio2.jpg" class="bio-img" alt="picture of Jason kayaking with his kids"/>
-
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-sm-9 mx-auto text-center name-tag">
-
-                <h1>Jason Mangin</h1>
-            
-            </div>
-        
-        </div>
-
-        <div class="row">
-
-            <nav class="col-sm-9 mx-auto name-tag-position">
-                
-                <button class="btn btn-primary round bio-btn" id="aboutBtn">about me</button>
-                
-                <button class="btn btn-primary round bio-btn" id="projectsBtn">projects</button>
-                
-                <button class="btn btn-primary round bio-btn" id="contactBtn">contact</button>
-                
-            </nav>
-            
-        </div>
-        
+<body class="background mx-auto text-center">  
+  <img src="assets/images/bio2.jpg" class="logo mx-auto" alt="picture of Jason kayaking with his kids"/>
+  <h1 class="mx-auto">jason mangin</h1>
+  <nav class="row mx-auto text-center">         
+    <button class="button mx-auto" id="about-btn">about me</button>     
+    <button class="button mx-auto" id="projects-btn">projects</button>
+    <button class="button mx-auto" id="contact-btn">contact</button>
+  </nav>  
+  
+  <div id="about">
+    <section class="section-container mx-auto">  
+      <h2>about me</h2>          
+      <p class="section-text">&emsp;I am an aspiring full stack engineer with a lifelong passion for programming and problem-solving. Originally born and raised in Iowa, I am a fifteen year Navy veteran who has spent a large portion of my life on nuclear submarines.</p>
+      <p class="section-text">&emsp;I have extensive experience in leadership, problem-solving, consulting, process improvement, and learning. Name it and there is a good chance that I have done it! Outside of work and projects, I spend most of my time baking (bread mostly) or outside hiking and biking.</p>           
+    </section>            
+                      
+    <section class="section-container mx-auto">
+      <h2>education</h2>
+      <img src="assets/images/a-crop.png" class="ed mx-auto" alt="auburn university logo" />
+      <div class="ed-text-container">
+        <h3>Auburn University</h3>
+        <h4>B.S. Applied Mathematics</h4>
+        <p class="ed-text">mathematical modeling, system optimization, cryptography, algorithms</p>
+      </div>
+      
+      <img src="assets/images/u-crop.png" class="ed mx-auto" alt="university of utah logo" />
+      <div class="ed-text-container">
+        <h3>University of Utah</h3>
+        <h4>Full Stack Flex Certificate</h4>
+        <p class="ed-text">html, css, javascript, bootstrap, jQuery, node.js, mongoDB, excite, react</p>
+      </div>
+  
+      <img src="assets/images/navy-crop.png" class="ed mx-auto" alt="united states navy seal" />
+      <div class="ed-text-container">
+        <h3>United States Navy</h3>
+        <h4>Nuclear Power School</h4>
+        <p class="ed-text">Nuclear, Mechanical, Electrical, and Chemical theory, design, troubleshooting, operation, and leadership</p>
+      </div>
     </section>
-    
-    <section class="container hide" id="about">
-        
-        <div class="row">
+  </div>
 
-            <div class="col-sm-9 mx-auto rectangle">
-    
-                <h2>about me</h2>
-                
-                <p>I am an aspiring full stack engineer with a lifelong passion for programming and problem-solving. Originally born and raised in Iowa, I am a fifteen year Navy veteran who has spent a large portion of my life on nuclear submarines. I have extensive experience in leadership, consulting, process improvement, and learning. Name it and there is a good chance that I have done it! Outside of work and projects, I spend most of my time baking (bread mostly) or outside hiking and biking. I am a huge fan of cinema and television as well.</p>
-                
-                <div class="text-center">
-    
-                    <button class="btn btn-primary round about-btn bio-btn" id="educationBtn">education</button>
-                    
-                    <button class="btn btn-primary round about-btn bio-btn" id="linksBtn">links</button>
-                    
-                </div>
-
-                <div class="container hide" id="educationContainer">
-
-                    <h2>education</h2>
-
-                    <div class="row m-3">
-                        
-                        <div class="col-sm-3 text-center p-3">
-
-                            <img src="assets/images/auburn.png" class="ed-image" alt="auburn university logo"/>
-                        
-                        </div>
-                        
-                        <div class="col-sm-9 p-3 text-center">
-
-                            <h3>Auburn University</h3>
-                            
-                            <h4>B.S. Applied Mathematics</h4>
-                            
-                            <p>mathematical modeling, system optimization, cryptography, algorithms</p>
-                        
-                        </div>
-                    
-                    </div>
-
-                    <div class="row m-3">
-                        
-                        <div class="col-sm-3 p-3 text-center">
-
-                            <img src="assets/images/u-of-u.png" class="ed-image" alt="university of utah logo"/>
-                        
-                        </div>
-                        
-                        <div class="col-sm-9 p-3 text-center">
-
-                            <h3>University of Utah</h3>
-                            
-                            <h4>Full Stack Flex Certificate</h4>
-                            
-                            <p>html, css, javascript, bootstrap, jQuery, node.js, mongoDB, excite, react</p>
-                        
-                        </div>
-                    
-                    </div>
-
-                    <div class="row m-3">
-                        
-                        <div class="col-sm-3 p-3 text-center">
-
-                            <img src="assets/images/navy.png" class="ed-image" alt="united states navy seal"/>
-                        
-                        </div>
-                        
-                        <div class="col-sm-9 p-3 text-center">
-
-                            <h3>United States Navy</h3>
-                            
-                            <h4>Nuclear Power School</h4>
-                            
-                            <p>Nuclear, Mechanical, Electrical, and Chemical theory, design, troubleshooting, operation, and leadership</p>
-                        
-                        </div>
-                    
-                    </div>
-
-                </div>
-
-                <div class="container hide" id="linksContainer">
-
-                    <h2>links</h2>
-
-                    <div class="text-center">
-                        
-                        <a href="https://www.linkedin.com/in/jason-mangin-21032065" target="_blank" class="btn btn-primary round linkedin pro-link mx-auto"><i class="fab fa-linkedin mx-3"></i>LinkedIn</a>
-                        
-                        <a href="https://github.com/Jollyrgr83" target="_blank" class="btn btn-primary round github pro-link mx-auto"><i class="fab fa-github mx-3"></i>GitHub</a>
-                        
-                        <a href="./assets/images/jason-mangin-resume.pdf" target="_blank" class="btn btn-primary round resume pro-link mx-auto"><i class="far fa-file-pdf mx-3"></i>Resume</a>
-                    
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
+  <div id="projects">
+    <section id="projects" class="section-container mx-auto text-center">
+      <h2>projects</h2>   
+      <p class="section-text">Here are a few of my favorite projects. Click the button to see a screenshot, details, and links.</p>
+      <select id="project-select"></select>
     </section>
-
-    <section class="container hide" id="projects">
-        
-        <div class="row">
-
-            <div class="col-sm-9 mx-auto rectangle">
-    
-                <h2>projects</h2>
-                
-                <p>Here are a few of my favorite projects. Click the button to see a screenshot, details, and links.</p>
-
-                <button class="btn btn-primary round project-btn" data-index="0">skyvi3w</button>
-
-                <button class="btn btn-primary round project-btn" data-index="1">weather</button>
-
-                <button class="btn btn-primary round project-btn" data-index="2">quiz</button>
-
-                <button class="btn btn-primary round project-btn" data-index="3">burger</button>
-
-                <button class="btn btn-primary round project-btn" data-index="4">event database</button>
-
-                <button class="btn btn-primary round project-btn" data-index="5">day planner</button>
- 
-                <div class="col-sm-9 mx-auto" id="projectContainer"></div>
-                
-            </div>
-
+  
+    <div id="project-container">
+      <section class="section-container mx-auto text-center">
+        <img id="project-image" class="project-img" src="./assets/images/skyvi3w.PNG" alt="" />
+        <div class="link-container mx-auto text-center">
+          <a id="project-live-link" class="project-link" href="">event scoring database live page</a>
         </div>
-
-    </section>
-
-    <section class="container hide" id="contact">
-        
-        <div class="row">
-
-            <div class="col-sm-9 mx-auto rectangle">
-
-                <h2>contact me at</h2>
-
-                <div class="row text-center mx-auto">
-
-                    <a href="mailto:jasongmangin@gmail.com" class="contact-info mx-auto">jasongmangin@gmail.com</a>
-                
-                    <p class="contact-info mx-auto">843.437.5934</p>
-                
-                    <a href="https://www.linkedin.com/in/jason-mangin-21032065" target="_blank" class="btn btn-primary round linkedin pro-link mx-auto"><i class="fab fa-linkedin mx-3"></i>LinkedIn</a>
-                        
-                    <a href="https://github.com/Jollyrgr83" target="_blank" class="btn btn-primary round github pro-link mx-auto"><i class="fab fa-github mx-3"></i>GitHub</a>
-                    
-                    <a href="./assets/images/jason-mangin-resume.pdf" target="_blank" class="btn btn-primary round resume pro-link mx-auto"><i class="far fa-file-pdf mx-3"></i>Resume</a>
-
-                </div>
-    
-                <h2>or send me a message</h2>
-
-                <form action="https://formspree.io/mvobedaz" method="POST">
-
-                    <div class="form-group">
-                    
-                        <label for="nameInput">name</label>
-                    
-                        <input type="name" class="form-control" id="nameInput" placeholder="john smith" name="name"/>
-                    
-                    </div>
-                    
-                    <div class="form-group">
-                    
-                        <label for="emailInput">email address</label>
-                    
-                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" name="_replyto"/>
-                    
-                    </div>
-                    
-                    <div class="form-group">
-                    
-                        <label for="messageInput">message</label>
-                    
-                        <textarea class="form-control" id="messageInput" rows="9" name="message"></textarea>
-                    
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary round">submit</button>
-                
-                </form>
-                
-            </div>
-
+        <div class="link-container mx-auto text-center">
+          <a id="project-repo-link" class="project-link" href="">event scoring database repository</a>
         </div>
-
+        <p id="project-text" class="project-text">This is an app that allows user to keep of scores relating to a sporting event with multiple events and tiers of competitors.</p>
+      </section>
+    </div>
+  </div>
+        
+  <div id="contact">
+    <section class="section-container mx-auto">
+      <h2>links and resume</h2>  
+      <div class="row mx-auto text-center">        
+        <a class="square linkedin mx-auto" href="https://www.linkedin.com/in/jason-mangin-21032065" target="_blank" ><i class="fab fa-linkedin mx-3"></i></a>
+        <a class="square github mx-auto" href="https://github.com/Jollyrgr83" target="_blank"><i class="fab fa-github mx-3"></i></a>
+        <a class="square resume mx-auto" href="./assets/images/jason-mangin-resume.pdf" target="_blank"><i class="far fa-file-pdf mx-3"></i></a>
+      </div>
+      <h2>contact me at</h2>
+      <div class="contact-info mx-auto text-center">
+        <a href="mailto:jasongmangin@gmail.com" class="mx-auto" style="color: navy">jasongmangin@gmail.com</a>
+      </div>
+      <p class="contact-info mx-auto">843.437.5934</p>
+      <h2>or send a message</h2>
+      <form action="https://formspree.io/mvobedaz" method="POST">
+        <label for="nameInput">name</label>
+        <input type="name" id="nameInput" placeholder="john smith" name="name"/>
+        <label for="emailInput">email address</label>
+        <input type="email" id="emailInput" placeholder="name@example.com" name="_replyto"/>
+        <label for="messageInput">message</label>
+        <textarea id="messageInput" rows="9" name="message"></textarea>
+        <div class="text-right">
+          <button type="submit" class="button">submit</button>
+        </div>
+      </form>
     </section>
-
-    <!-- jQuery library -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    
-    <!-- local javascript -->
-    <script type="text/javascript" src="./assets/js/script.js"></script>
-
+  </div>
 </body>
-
 </html>
