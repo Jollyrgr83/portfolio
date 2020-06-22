@@ -114,4 +114,6 @@ $(() => {
     optionEl.text(portfolio[keys[i]].title);
     $("#project-select").append(optionEl);
   }
+  // renders initial project options
+  project(0);
 });

@@ -41,7 +41,7 @@
 }
 /* container element for education text */
 .ed-text-container {
-  background-color: steelblue;
+  background-color: lightgray;
   border-radius: 15px;
   border: none;
   box-shadow: 2px 2px 5px black;
@@ -51,7 +51,7 @@
 }
 /* main titles */
 h1 {
-  background-color: navy;
+  background-color: lightslategray;
   color: lightgray;
   border: none;
   border-radius: 15px;
@@ -194,7 +194,7 @@ select:enabled, select:active, select:focus {
 .project-link {
   color: navy;
   font-family: "Architects Daughter", cursive;
-  font-size: 18px;
+  font-size: 22px;
 }
 .project-text {
   background-color: steelblue;
@@ -213,7 +213,7 @@ select:enabled, select:active, select:focus {
   border: none;
   border-radius: 15px;
   box-shadow: 2px 2px 5px black;
-  font-size: 18px;
+  font-size: 22px;
   font-family: "Architects Daughter", cursive;
   text-align: center;
   margin: 10px !important;
