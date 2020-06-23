@@ -51,11 +51,11 @@
 }
 /* main titles */
 h1 {
-  background-color: lightslategray;
-  color: lightgray;
+  /* background-color: lightslategray; */
+  color: navy;
   border: none;
   border-radius: 15px;
-  box-shadow: 2px 2px 5px black;
+  /* box-shadow: 2px 2px 5px black; */
   font-family: "Architects Daughter", cursive;
   font-weight: 300;
   font-size: 42px;
@@ -122,7 +122,7 @@ h4 {
   outline: none;
   margin: 10px;
   padding: 5px;
-  width: 110px;
+  width: 100px;
 }
 .button:hover, .button:focus {
   cursor: pointer;

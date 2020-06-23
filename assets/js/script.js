@@ -39,7 +39,7 @@ $(() => {
     },
     4: {
       title: "event scoring database",
-      url: "https://protected-peak-005301.herokuapp.com/",
+      url: "https://protected-peak-05301.herokuapp.com/",
       git: "https://github.com/Jollyrgr83/rodeo.git",
       image: "./assets/images/event-scoring-database.png",
       alt: "screenshot of event scoring database project home screen",
@@ -91,10 +91,12 @@ $(() => {
     $("#project-container").attr("class", "show");
     $("#project-image").attr("src", portfolio[num].image);
     $("#project-image").attr("alt", portfolio[num].alt);
-    $("#project-live-link").attr(portfolio[num].url);
+    $("#project-live-link").attr("href", portfolio[num].url);
     $("#project-live-link").text(`${portfolio[num].title} live page`);
-    $("#project-repo-link").attr(portfolio[num].git);
+    $("#project-live-link").attr("target", "_blank");
+    $("#project-repo-link").attr("href", portfolio[num].git);
     $("#project-repo-link").text(`${portfolio[num].title} repository`);
+    $("#project-repo-link").attr("target", "_blank");
     $("#project-text").text(portfolio[num].text);
   };
   // event listener for project selection menu
