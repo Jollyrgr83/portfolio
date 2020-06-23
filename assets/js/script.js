@@ -2,7 +2,7 @@ $(() => {
   // stores associated project information
   const portfolio = {
     0: {
-      title: "skyvi3w",
+      title: "Project 1: skyvi3w",
       url: "https://jollyrgr83.github.io/Project-1/",
       git: "https://github.com/Jollyrgr83/Project-1.git",
       image: "./assets/images/skyvi3w.PNG",
@@ -10,8 +10,8 @@ $(() => {
       text:
         "Skyvi3w is a search engine that delivers information about upcoming astral, earth, and weather events from NASA and OpenWeather APIs against the stunning visuals provided by NASA's Astronomy Picture of the Day.",
     },
-    1: {
-      title: "weather",
+    3: {
+      title: "Weather Dashboard",
       url: "https://jollyrgr83.github.io/weather-dashboard/",
       git: "https://github.com/Jollyrgr83/weather-dashboard.git",
       image: "./assets/images/weather-dashboard.png",
@@ -20,7 +20,7 @@ $(() => {
         "This is a weather dashboard project that was assigned as part of the University of Utah full stack coding bootcamp. It dynamically updates a weather display including images, temperature, humidity, uv index, windspeed, and a five day forecast using the openweathermap API.",
     },
     2: {
-      title: "quiz",
+      title: "Quiz",
       url: "https://jollyrgr83.github.io/coding-quiz/",
       git: "https://github.com/Jollyrgr83/coding-quiz.git",
       image: "./assets/images/coding-quiz.png",
@@ -28,8 +28,8 @@ $(() => {
       text:
         "This is a 10-question quiz covering basic programming knowledge. It contains dynamic html updating and DOM manipulation, client storage, and a timer all using javascript.",
     },
-    3: {
-      title: "burger",
+    5: {
+      title: "Burger Database",
       url: "https://guarded-journey-29239.herokuapp.com/",
       git: "https://github.com/Jollyrgr83/burger.git",
       image: "./assets/images/burger.png",
@@ -37,8 +37,8 @@ $(() => {
       text:
         "This is an app that allows users to keep track of the hamburgers that they would like to eat and update their status as they eat them. It uses express, handlebars, and mysql.",
     },
-    4: {
-      title: "event scoring database",
+    6: {
+      title: "Event Scoring Database",
       url: "https://protected-peak-05301.herokuapp.com/",
       git: "https://github.com/Jollyrgr83/rodeo.git",
       image: "./assets/images/event-scoring-database.png",
@@ -46,8 +46,8 @@ $(() => {
       text:
         "This is an app that allows users to keep track of scores relating to a sporting event with multiple events and tiers of competitors. It is a work in progress.",
     },
-    5: {
-      title: "day planner",
+    4: {
+      title: "Day Planner",
       url: "https://jollyrgr83.github.io/day-planner/",
       git: "https://github.com/Jollyrgr83/day-planner.git",
       image: "./assets/images/day-planner.png",
@@ -55,8 +55,8 @@ $(() => {
       text:
         "This is an app that allows users to keep track of their daily schedule.",
     },
-    6: {
-      title: "story lines",
+    1: {
+      title: "Project 2: story lines",
       url: "https://peaceful-scrubland-88128.herokuapp.com/",
       git: "https://github.com/Jollyrgr83/project-2.git",
       image: "./assets/images/story-lines.png",
