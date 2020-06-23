@@ -55,7 +55,6 @@ h1 {
   color: navy;
   border: none;
   border-radius: 15px;
-  /* box-shadow: 2px 2px 5px black; */
   font-family: "Architects Daughter", cursive;
   font-weight: 300;
   font-size: 42px;
@@ -214,7 +213,7 @@ select:enabled, select:active, select:focus {
   border-radius: 15px;
   box-shadow: 2px 2px 5px black;
   font-size: 22px;
-  font-family: "Architects Daughter", cursive;
+  /* font-family: "Architects Daughter", cursive; */
   text-align: center;
   margin: 10px !important;
   padding: 10px !important;

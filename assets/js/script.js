@@ -2,7 +2,7 @@ $(() => {
   // stores associated project information
   const portfolio = {
     0: {
-      title: "Project 1: skyvi3w",
+      title: "Skyvi3w (Project 1)",
       url: "https://jollyrgr83.github.io/Project-1/",
       git: "https://github.com/Jollyrgr83/Project-1.git",
       image: "./assets/images/skyvi3w.PNG",
@@ -56,7 +56,7 @@ $(() => {
         "This is an app that allows users to keep track of their daily schedule.",
     },
     1: {
-      title: "Project 2: story lines",
+      title: "Story Lines (Project 2)",
       url: "https://peaceful-scrubland-88128.herokuapp.com/",
       git: "https://github.com/Jollyrgr83/project-2.git",
       image: "./assets/images/story-lines.png",
@@ -99,6 +99,23 @@ $(() => {
     $("#project-repo-link").attr("target", "_blank");
     $("#project-text").text(portfolio[num].text);
   };
+  // html build library
+  const h = (o) => {
+    const e = $(`<${o.e}>`);
+    if (o.i) {
+      e.attr("id", o.i);
+    }
+    if (o.c) {
+      e.attr("class", o.c);
+    }
+    if (o.tx) {
+      e.text(o.tx);
+    }
+    if (o.v) {
+      e.val(o.v);
+    }
+    return e;
+  };
   // event listener for project selection menu
   $(document).on("change", "#project-select", () => {
     project(parseInt($("#project-select").val()));
@@ -111,9 +128,11 @@ $(() => {
   display("about");
   // renders project selection options
   for (let i = 0; i < keys.length; i++) {
-    const optionEl = $("<option>");
-    optionEl.val(keys[i]);
-    optionEl.text(portfolio[keys[i]].title);
+    const optionEl = h({
+      e: "option",
+      v: keys[i],
+      tx: portfolio[keys[i]].title
+    });
     $("#project-select").append(optionEl);
   }
   // renders initial project options
