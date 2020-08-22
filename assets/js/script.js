@@ -2,68 +2,72 @@ $(() => {
   // stores associated project information
   const portfolio = {
     0: {
-      title: "Skyvi3w (Project 1)",
-      url: "https://jollyrgr83.github.io/Project-1/",
-      git: "https://github.com/Jollyrgr83/Project-1.git",
-      image: "./assets/images/skyvi3w.PNG",
-      alt: "screenshot of skyvi3w home screen",
+      title: "Bier Run",
+      url: "https://bier-run.herokuapp.com/",
+      git: "https://github.com/Jollyrgr83/bierRun",
+      image: "./assets/images/project-bier-run.png",
+      alt: "screenshot of Bier run home screen",
       text:
-        "Skyvi3w is a search engine that delivers information about upcoming astral, earth, and weather events from NASA and OpenWeather APIs against the stunning visuals provided by NASA's Astronomy Picture of the Day.",
-    },
-    3: {
-      title: "Weather Dashboard",
-      url: "https://jollyrgr83.github.io/weather-dashboard/",
-      git: "https://github.com/Jollyrgr83/weather-dashboard.git",
-      image: "./assets/images/weather-dashboard.png",
-      alt: "screenshot of weather dashboard home screen",
-      text:
-        "This is a weather dashboard project that was assigned as part of the University of Utah full stack coding bootcamp. It dynamically updates a weather display including images, temperature, humidity, uv index, windspeed, and a five day forecast using the openweathermap API.",
-    },
-    2: {
-      title: "Quiz",
-      url: "https://jollyrgr83.github.io/coding-quiz/",
-      git: "https://github.com/Jollyrgr83/coding-quiz.git",
-      image: "./assets/images/coding-quiz.png",
-      alt: "screenshot of coding quiz home screen",
-      text:
-        "This is a 10-question quiz covering basic programming knowledge. It contains dynamic html updating and DOM manipulation, client storage, and a timer all using javascript.",
-    },
-    5: {
-      title: "Burger Database",
-      url: "https://guarded-journey-29239.herokuapp.com/",
-      git: "https://github.com/Jollyrgr83/burger.git",
-      image: "./assets/images/burger.png",
-      alt: "screenshot of burger project home screen",
-      text:
-        "This is an app that allows users to keep track of the hamburgers that they would like to eat and update their status as they eat them. It uses express, handlebars, and mysql.",
-    },
-    6: {
-      title: "Event Scoring Database",
-      url: "https://protected-peak-05301.herokuapp.com/",
-      git: "https://github.com/Jollyrgr83/rodeo.git",
-      image: "./assets/images/event-scoring-database.png",
-      alt: "screenshot of event scoring database project home screen",
-      text:
-        "This is an app that allows users to keep track of scores relating to a sporting event with multiple events and tiers of competitors. It is a work in progress.",
-    },
-    4: {
-      title: "Day Planner",
-      url: "https://jollyrgr83.github.io/day-planner/",
-      git: "https://github.com/Jollyrgr83/day-planner.git",
-      image: "./assets/images/day-planner.png",
-      alt: "screenshot of day planner project home screen",
-      text:
-        "This is an app that allows users to keep track of their daily schedule.",
+        "Bier Run was developed as the final project of the UofU Coding Bootcamp. It is a MERN stack allowing customers to place beer delivery orders and vendors to fulfill them. Bier Run utilizes Auth0 for registration and login.",
     },
     1: {
-      title: "Story Lines (Project 2)",
-      url: "https://peaceful-scrubland-88128.herokuapp.com/",
-      git: "https://github.com/Jollyrgr83/project-2.git",
-      image: "./assets/images/story-lines.png",
-      alt: "screenshot of story lines home screen",
+      title: "Rodeo Scoring",
+      url: "https://rodeo-scoring-version-2.herokuapp.com/",
+      git: "https://github.com/Jollyrgr83/rodeo-scoring-version-2",
+      image: "./assets/images/project-rodeo-scoring-version-2.png",
+      alt: "screenshot of Rodeo Scoring home screen",
       text:
-        "This is an agile project management app designed to track several users and projects with a focus on simplicity and ease of use.",
+        "Rodeo Scoring was developed to assist a public power utility (or similar entity) in facilitating an annual lineworkers rodeo (or similar competition). Rodeo Scoring uses jQuery, Bootstrap, MySQL, Node.js, and Express to allow users to enter competitor, event, competition tier, and score info and generate necessary reports for standings and results.",
     },
+    2: {
+      title: "Story Lines",
+      url: "https://uofu-project-2-story-lines.herokuapp.com/",
+      git: "https://github.com/Jollyrgr83/uofu-project-story-lines",
+      image: "./assets/images/project-story-lines.png",
+      alt: "screenshot of Story Lines home screen",
+      text: "Story Lines was developed as the second project of the UofU Coding Bootcamp. Story Lines uses Bootstrap, MySQL, Sequelize, Node.js, Express, and Passport to provide users with an agile streamlined project management experience."
+    },
+    3: {
+      title: "Google Books Companion",
+      url: "https://uofu-homework-books.herokuapp.com/",
+      git: "https://github.com/Jollyrgr83/uofu-hw-book-search",
+      image: "./assets/images/project-books.png",
+      alt: "screenshot of Google Books Companion home screen",
+      text: "Google Books Companion was developed as a companion to the Google Books API. It is a MERN stack allowing users to find and save books of interest to them using Bootstrap, Mongoose ORM, MongoDB, Node.js, and Express."
+    },
+    4: {
+      title: "Employee Directory",
+      url: "https://uofu-homework-directory.herokuapp.com/",
+      git: "https://github.com/Jollyrgr83/uofu-hw-directory",
+      image: "./assets/images/project-directory.png",
+      alt: "screenshot of Directory home screen",
+      text: "Employee Directory was developed as a simple and easy-to-use interface to access employee information from a directory. It uses Bootstrap and React to allow users to view, sort, and filter employee information by a number of fields. It uses the Random User API to simulate an employee database."
+    },
+    5: {
+      title: "Budget Tracker",
+      url: "https://uofu-homework-budget.herokuapp.com/",
+      git: "https://github.com/Jollyrgr83/uofu-hw-budget-tracker",
+      image: "./assets/images/project-budget.png",
+      alt: "screenshot of Budget Tracker home screen",
+      text: "Budget Tracker was developed as a simple and easy-to-use method to allow users to keep a record of their credits and debits to an account. It uses Bootstrap, Mongoose ORM, MongoDB, Node.js, and Express as well as utlizing indexedDB to provide a cohesive off-line experience."
+    },
+    6: {
+      title: "Fitness Tracker",
+      url: "https://uofu-homework-fitness.herokuapp.com/",
+      git: "https://github.com/Jollyrgr83/uofu-hw-fitness-tracker",
+      image: "./assets/images/project-fitness.png",
+      alt: "screenshot of Fitness Tracker home screen",
+      text: "Fitness Tracker was developed as a simple and easy-to-use method to allow users to keep a record of their recent workouts and associated statistics. It uses Bootstrap, Mongoose ORM, MongoDB, Node.js, and Express."
+    },
+    7: {
+      title: "Burger Database",
+      url: "https://uofu-homework-burger.herokuapp.com/",
+      git: "https://github.com/Jollyrgr83/uofu-hw-burger-database",
+      image: "./assets/images/project-burger.png",
+      alt: "screenshot of Burger Database home screen",
+      text: "Burger Database was developed as a simple database to allow users to keep a record of burgers that they would like to eat and their status. It uses Bootstrap, MySQL, Handlebars, Node.js, and Express."
+    }
+
   };
   const keys = Object.keys(portfolio);
   // updates page elements

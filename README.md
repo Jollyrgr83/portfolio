@@ -2,7 +2,7 @@
 
 Welcome to my portfolio!  This project is intended to provide information about me and showcase my projects.
 
-<https://jollyrgr83.github.io/portfolio-new/>
+<https://jollyrgr83.github.io/portfolio/>
 
 ## Requirements
 
