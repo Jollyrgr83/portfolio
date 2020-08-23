@@ -37,7 +37,7 @@ $(() => {
     },
     4: {
       title: "Employee Directory",
-      url: "https://uofu-homework-directory.herokuapp.com/",
+      url: "https://jollyrgr83.github.io/uofu-hw-directory/",
       git: "https://github.com/Jollyrgr83/uofu-hw-directory",
       image: "./assets/images/project-directory.png",
       alt: "screenshot of Directory home screen",
@@ -66,6 +66,14 @@ $(() => {
       image: "./assets/images/project-burger.png",
       alt: "screenshot of Burger Database home screen",
       text: "Burger Database was developed as a simple database to allow users to keep a record of burgers that they would like to eat and their status. It uses Bootstrap, MySQL, Handlebars, Node.js, and Express."
+    },
+    8: {
+      title: "This Portfolio",
+      url: "https://jollyrgr83.github.io/portfolio/",
+      git: "https://github.com/Jollyrgr83/portfolio",
+      image: "./assets/images/portfolio.png",
+      alt: "screenshot of Portfolio home screen",
+      text: "Use the links to view the codebase for this portfolio."
     }
 
   };
