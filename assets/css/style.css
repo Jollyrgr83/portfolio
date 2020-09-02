@@ -113,7 +113,7 @@ h4 {
   color: navy;
   border: none;
   border-radius: 40px;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 1px 1px 3px black;
   font-family: "Architects Daughter", cursive;
   font-weight: 300;
   font-size: 21px;
@@ -122,19 +122,28 @@ h4 {
   padding: 5px;
   width: 100px;
 }
-.button:hover, .button:focus {
+.button:hover {
   cursor: pointer;
-  opacity: 0.7;
+  box-shadow: 3px 3px 6px black;
   border: none;
   outline: none;
   color: whitesmoke;
+}
+.button:active {
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 1px 1px black;
+}
+.button:focus {
+  cursor: pointer;
+  outline: none;
 }
 /* square buttons */
 .square {
   color: whitesmoke;
   border: none;
   border-radius: 10px;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 1px 1px 3px black;
   margin: 10px;
   padding-top: 10px;
   outline: none;
@@ -144,11 +153,20 @@ h4 {
   height: 2.25em;
   width: 2.25em;
 }
-.square:hover, .square:focus {
+.square:hover {
   color: white;
   text-decoration: none;
-  opacity: 0.7;
+  box-shadow: 3px 3px 6px black;
   border: none;
+  outline: none;
+}
+.square:active {
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 1px 1px black;
+}
+.square-focus {
+  cursor: pointer;
   outline: none;
 }
 .linkedin {
