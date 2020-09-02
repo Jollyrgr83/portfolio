@@ -127,7 +127,7 @@ h4 {
   box-shadow: 3px 3px 6px black;
   border: none;
   outline: none;
-  color: whitesmoke;
+  /* color: whitesmoke; */
 }
 .button:active {
   cursor: pointer;
