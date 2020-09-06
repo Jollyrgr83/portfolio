@@ -12,9 +12,9 @@ $(() => {
     },
     1: {
       title: "Rodeo Scoring",
-      url: "https://rodeo-scoring-version-2.herokuapp.com/",
-      git: "https://github.com/Jollyrgr83/rodeo-scoring-version-2",
-      image: "./assets/images/project-rodeo-scoring-version-2.png",
+      url: "https://rodeo-scoring-version-1.herokuapp.com/",
+      git: "https://github.com/Jollyrgr83/rodeo-scoring-version-1",
+      image: "./assets/images/project-rodeo-scoring-version-1.png",
       alt: "screenshot of Rodeo Scoring home screen",
       text:
         "Rodeo Scoring was developed to assist a public power utility (or similar entity) in facilitating an annual lineworkers rodeo (or similar competition). Rodeo Scoring uses jQuery, Bootstrap, MySQL, Node.js, and Express to allow users to enter competitor, event, competition tier, and score info and generate necessary reports for standings and results.",
