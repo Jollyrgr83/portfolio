@@ -234,15 +234,14 @@ select:enabled, select:active, select:focus {
 }
 /* contact form */
 form label {
-  /*background-color: none;*/
   color: navy;
   border: none;
   font-weight: 300;
   font-size: 21px;
-  margin: 10px;
+  margin: 0 20px 10px 20px;
   padding: 0;
-  text-align: left !important;
-  width: 315px;
+  text-align: left;
+  display: block;
 }
 input:enabled, input:active, input:focus {
   background-color: whitesmoke;
@@ -278,4 +277,16 @@ textarea:enabled, textarea:active, textarea:focus {
 }
 .hide {
     display: none;
+}
+/* utility classes */
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.ctr {
+  margin-left: auto;
+  margin-right: auto;
+}
+.ctr-txt {
+  text-align: center;
 }
