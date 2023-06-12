@@ -168,3 +168,4 @@ class Portfolio {
     });
   }
 }
+const P = new Portfolio();
