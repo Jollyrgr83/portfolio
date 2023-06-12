@@ -124,7 +124,6 @@ class Portfolio {
   }
   nav(e) {
     const page = e.target.getAttribute("id").split("-")[0];
-    console.log("page", page);
     this.displayPage(page);
   }
   classUpdate() {
