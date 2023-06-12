@@ -45,19 +45,8 @@
       crossorigin="anonymous"
       type="text/css"
     />
-    <!-- jQuery script for fontawesome to work with jQuery -->
-    <script
-      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
-      data-auto-replace-svg="nest"
-    ></script>
     <!-- local style sheet -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-    <!-- jQuery library -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body class="background mx-auto text-center">
     <img
@@ -141,7 +130,9 @@
           Here are a few of my favorite projects. Select a project to see a
           screenshot, details, and links.
         </p>
-        <select id="project-select"></select>
+        <label for="project-select">
+          <select id="project-select" name="project-select"></select>
+        </label>
       </section>
       <div id="project-container">
         <section class="section-container mx-auto text-center">
@@ -197,7 +188,7 @@
         <form action="https://formspree.io/mvobedaz" method="POST">
           <label for="nameInput">name</label>
           <input
-            type="name"
+            type="text"
             id="nameInput"
             placeholder="john smith"
             name="name"
